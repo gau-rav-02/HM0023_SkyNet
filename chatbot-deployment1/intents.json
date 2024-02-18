@@ -1,0 +1,203 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "GFG_description",
+      "patterns": [
+        "What is  GFG community about?",
+        "Can you describe the purpose of this GFG club?",
+        "Tell me more about GFG community.",
+        "What are the goals of this GFG club?",
+        "Could you provide an overview of this GFG community?",
+        "What activities does GFG club organize?"
+      ],
+      "responses": [
+        "The COLLEGE GeeksforGeeks (GFG) community aims to provide resources and support for college students interested in computer science and programming. We organize coding competitions, workshops, and other events to enhance skills and foster a collaborative environment."
+  
+
+      ]
+    },
+    {
+      "tag": "CodeChef_rules",
+      "patterns": [
+        "tell me rules of code chef ",
+        "What are the rules of this Code Chef community?",
+        "Can you explain the rules?",
+        "Tell me about the rules of Code Chef club.",
+        "Are there any specific rules I need to follow in this Code Chef community?",
+        "What are the guidelines for participating in Code Chef activities?"
+      ],
+      "responses": [
+        "The rules of our Code Chef community are designed to ensure a fair and respectful environment for all members. Here are some of the key rules:\n1. Respect others: Treat fellow members with kindness and courtesy.\n2. No cheating: Plagiarism or dishonest behavior is strictly prohibited.\n3. Follow the Code of Conduct: Adhere to the community guidelines and standards.\n4. Participate actively: Engage in discussions, challenges, and activities.\n5. Help each other: Foster a supportive atmosphere by assisting and mentoring fellow members.\nThese are just a few of the rules that contribute to our vibrant and welcoming community. For a comprehensive list, please refer to our official documentation or reach out to the community moderators."
+      ]
+    },
+    {
+      "tag": "CodeChef_description",
+      "patterns": [
+        "Code Chef",
+        "What is  Code Chef community about?",
+        "Can you describe the purpose of this Code Chef club?",
+        "Tell me more about Code Chef community.",
+        "What are the goals of this Code Chef club?",
+        "Could you provide an overview of this Code Chef community?",
+        "What activities does Code Chef club organize?"
+      ],
+      "responses": [
+        "The Code Chef community fosters coding and competitive programming passion through events and challenges."
+      ]
+    },
+    
+    {
+      "tag": "general_conversation",
+      "patterns": [
+        "What's up?",
+        "How's it going?",
+        "What's new?",
+        "How are you doing?",
+        "How's everything?"
+      ],
+      "responses": [
+        "Not much, just here to assist you! How can I help?",
+        "I'm doing well, thank you! How about you?",
+        "Just staying busy helping out. What can I do for you?",
+        "Everything's good here. How can I assist you today?",
+        "I'm here and ready to assist. What's on your mind?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later",
+        "Take care",
+        "Until next time"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "Bye! Take care.",
+        "See you later!",
+        "Take care and have a wonderful day!",
+        "Until next time, goodbye!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Appreciate it",
+        "Thanks a lot",
+        "Thank you very much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem, happy to help!",
+        "Glad I could assist!",
+        "Anytime!",
+        "You're welcome! Let me know if there's anything else I can do for you."
+      ]
+    },
+    {
+      "tag": "about_club",
+      "patterns": [
+        "Tell me about the club",
+        "What does the club do?",
+        "Can you explain the purpose of the club?",
+        "What activities does the club organize?",
+        "Why should I join the club?"
+      ],
+      "responses": [
+        "The GFG (GeeksforGeeks) Club is a vibrant and dynamic community dedicated to fostering a passion for technology, coding, and innovation among college students. Through a wide array of activities, workshops, competitions, and events, the club aims to provide its members with opportunities for skill development, networking, and collaboration. With a focus on promoting excellence in computer science and related fields, the GFG Club strives to empower its members to achieve their academic and professional goals while creating a supportive and inclusive environment for learning and growth."
+      ]
+    },
+    {
+      "tag": "GFG_rules",
+      "patterns": [
+        "tell me rules of GFG ",
+        "What are the rules of this GFG community?",
+        "Can you explain the rules?",
+        "Tell me about the rules GFG club.",
+        "Are there any specific rules I need to follow in this GFG community?",
+        "What are the guidelines for participating in GFG activities?"
+      ],
+      "responses": [
+        "The rules of our GFG community are designed to ensure a fair and respectful environment for all members. Here are some of the key rules:\n1. Respect others: Treat fellow members with kindness and courtesy.\n2. No cheating: Plagiarism or dishonest behavior is strictly prohibited.\n3. Follow the Code of Conduct: Adhere to the community guidelines and standards.\n4. Participate actively: Engage in discussions, challenges, and activities.\n5. Help each other: Foster a supportive atmosphere by assisting and mentoring fellow members.\nThese are just a few of the rules that contribute to our vibrant and welcoming community. For a comprehensive list, please refer to our official documentation or reach out to the community moderators."
+      ]
+    },
+    
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "How can I contact the club?",
+        "What's the club's email address?",
+        "Do you have a phone number?",
+        "Where is the club located?",
+        "Is there a social media page for the club?"
+      ],
+      "responses": [
+        "You can contact us at gfg@gmail.com."
+      ]
+    },
+    {
+      "tag": "membership_info",
+      "patterns": [
+        "How can I become a member?",
+        "What are the requirements for membership?",
+        "Is there a membership fee?",
+        "Can non-students join the club?",
+        "Are there any benefits to being a member?"
+      ],
+      "responses": [
+        "You can become a member by visiting our website and filling up the membership form"
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "Can I provide feedback?",
+        "How can I share my thoughts about the club?",
+        "Is there a way to give suggestions?",
+        "Do you welcome feedback?",
+        "Who should I contact for feedback?"
+      ],
+      "responses": [
+        "Yes, we welcome feedback!",
+        "You can provide feedback by...",
+        "Suggestions are always appreciated!",
+        "Feel free to share your thoughts with us!",
+        "You can contact [name/email] for feedback."
+      ]
+    }
+  ]
+}
